@@ -93,6 +93,7 @@ button {
 
 .resultText {
     margin: 0 50px;
+    text-transform: none;
 }
 
 .mainbutton {
@@ -119,4 +120,41 @@ button {
 
 .CloseBtn:active, .mainbutton:active {
     border-color: rgb(9, 9, 177);
+}
+
+.result h2 {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .mainbox {
+        width: 400px;
+        height: 650px;
+    }
+
+    .mainbox form, .result form {
+        flex-direction: column;
+    }
+
+    .mainInp {
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .heightUnitsInp {
+        width: 100px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .result {
+        width: 445px;
+        height: 575px;
+    }
+
+    .result h2 {
+        font-size: 70px;
+    }
+
 }
