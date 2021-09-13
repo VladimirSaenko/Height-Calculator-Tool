@@ -1,6 +1,6 @@
 # Height-Calculator-Tool
 
-### Typical Height Calculator from meme 
+### Typical Height Calculator from memes
 
 ### Codepen {
 
