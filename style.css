@@ -130,6 +130,10 @@ button {
     text-transform: capitalize;
 }
 
+.result form {
+    background: rgba(19, 19, 201, 0.712);
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .mainbox {
         width: 400px;
