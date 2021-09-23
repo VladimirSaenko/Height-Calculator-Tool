@@ -19,7 +19,7 @@ mainbutton.addEventListener('click', function() {
     if(heightUnits.value == "metr" && heightInput.value == 324) {
         resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value} like the Eiffel Tower!`;
     }
-    if(heightUnits.value == "") {
+    if(heightUnits.value == "" && heightInput.value != "") {
         let random = getRandomInt(1,4);
         if(random == 1) {
             heightUnits.value = "cm";
@@ -37,6 +37,9 @@ mainbutton.addEventListener('click', function() {
             heightUnits.value = "ft";
             resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value}!`;
         }
+    }
+    if(heightInput.value == "") {
+        resultText.innerText = "Input your height, try again";
     }
 })
 
