@@ -2,7 +2,7 @@
 
 ### Typical Height Calculator from memes
 
-### Codepen {
+## Codepen {
 
 ### https://codepen.io/vladimirsaenko/pen/YzQNKJL
 
