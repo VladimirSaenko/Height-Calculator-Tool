@@ -34,7 +34,6 @@ button {
     width: 765px;
     height: 465px;
     border-radius: 50px;
-   
 }
 
 .result {
@@ -167,5 +166,4 @@ button {
     .result h2 {
         font-size: 70px;
     }
-
 }
