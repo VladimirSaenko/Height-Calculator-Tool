@@ -2,10 +2,10 @@
 "use strict";
 
 let heightInput = document.getElementById("height");
-let heightUnits = document.getElementById("un");
+let heightUnits = document.getElementById("unit");
 let resultText = document.getElementById("resultText");
 let mainbutton = document.getElementById("mainbutton");
-let resultBox = document.getElementById("result");
+let resultBox = document.getElementById("resultbox");
 let mainbox = document.getElementById("mainbox");
 let closeBtn = document.getElementById("close");
 
