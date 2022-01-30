@@ -1,12 +1,8 @@
 # Height-Calculator-Tool
 
-### Height calculator from memes
+## Height calculator from memes | Калькулятор роста из мема
 
-## Codepen {
-
-### https://codepen.io/vladimirsaenko/pen/YzQNKJL
-
-### }
+## Codepen: https://codepen.io/vladimirsaenko/pen/YzQNKJL
 
 ![meme](https://user-images.githubusercontent.com/56477695/132377540-67c5b50a-48ee-4834-a9f3-fb8cf3027268.jpg)
 ![meme2](https://user-images.githubusercontent.com/56477695/132377570-ba7a5159-2d1a-433d-b7e6-e893b548c258.jpg)
