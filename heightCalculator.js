@@ -20,7 +20,7 @@ mainbutton.addEventListener('click', function() {
         resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value} like the Eiffel Tower!`;
     }
     if(heightUnits.value == "" && heightInput.value != "") {
-        let random = getRandomInt(1,4);
+        let random = getRandomInt(1, 4);
         if(random == 1) {
             heightUnits.value = "cm";
             resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value}!`;
