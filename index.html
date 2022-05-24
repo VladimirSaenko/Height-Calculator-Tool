@@ -17,7 +17,12 @@
             <form>
                 <span>Input your height</span>
                 <input class="mainInp" type="number" id="height" placeholder="Введите ваш рост">
-                <input class="heightUnitsInp" id="unit" list="height-units">
+                <select id="unit" class="heightUnitsInp">
+                    <option value="cm">cm</option>
+                    <option value="mm">mm</option>
+                    <option value="metr">metr</option>
+                    <option value="ft">ft</option>
+                </select>
             </form>
             <button class="mainbutton" id="mainbutton" type="button">Xem</button>
         </div>
@@ -30,12 +35,6 @@
             <button class="CloseBtn" id="close" type="button">Ok</button>
         </div>
     </div>
-    <datalist id="height-units">
-        <option value="cm"></option>
-        <option value="mm"></option>
-        <option value="metr"></option>
-        <option value="ft"></option>
-    </datalist>
     <script src="heightCalculator.js"></script>
 </body>
 </html>
