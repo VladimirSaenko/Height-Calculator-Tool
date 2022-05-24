@@ -124,6 +124,7 @@ button {
 
     .mainbox header {
         text-align: center;
+        height: 125px;
     }
 
     .mainbox form, .result form {
