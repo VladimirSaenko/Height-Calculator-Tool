@@ -23,23 +23,20 @@ mainbutton.addEventListener('click', function() {
         let random = getRandomInt(1, 4);
         if(random == 1) {
             heightUnits.value = "cm";
-            resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value}!`;
         }
         if(random == 2) {
             heightUnits.value = "mm";
-            resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value}!`;
         }
         if(random == 3) {
             heightUnits.value = "metr";
-            resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value}!`;
         }
         if(random == 4) {
             heightUnits.value = "ft";
-            resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value}!`;
         }
+        resultText.innerText = `Your height is ${heightInput.value} ${heightUnits.value}!`;
     }
-    if(heightInput.value == "") {
-        resultText.innerText = "Input your height, try again";
+    if(heightInput.value == 0 || heightInput.value < 0 || heightInput.value == null) {
+        resultText.innerText = "Your height cannot be zero";
     }
 })
 
